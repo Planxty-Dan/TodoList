@@ -3,6 +3,11 @@ public class TodoListItem {
     private String title;
     private String description;
 
+    public TodoListItem(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
+
     public void printDetails() {
         System.out.println("Title: " + title);
         System.out.println("Description: " + description);
